@@ -270,7 +270,46 @@ header {
 }
 
 /* how-lg */
+.how .background {
+  height: 350px;
+  background-image: url(../img/HelbizBanner.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.how .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.how .container [class*="col-"]:first-child {
+  text-align: right;
+}
+
+.how .container [class*="col-"]:last-child {
+  text-align: left;
+}
+
+.how .container h2 {
+  padding-top: 40px;
+  font-size: 26px;
+}
+
+.how .container img {
+  height: 200px;
+}
+
+.how .container h5 {
+  padding-top: 40px;
+  font-size: 16px;
+}
+
+.how .container span {
+  display: inline-block;
+  padding-top: 20px;
+  font-size: 12px;
+}
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
   /* how-md */
