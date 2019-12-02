@@ -6,7 +6,6 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 10px;
-  background-color: red;
 }
 
 .container_1000 {
@@ -22,12 +21,12 @@ body {
   display: block;
 }
 
-/* header-lg */
+/* header */
 header {
   background-color: white;
 }
 
-/* menu */
+/* menu-lg */
 .header-top {
   position: fixed;
   top: 0;
@@ -76,7 +75,7 @@ header {
   padding-right: 20px;
 }
 
-/* jumbo */
+/* jumbo-lg */
 .jumbo {
   position: relative;
   height: 400px;
@@ -107,7 +106,7 @@ header {
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  /* header-md */
+  /* menu-md & jumbo-md */
   .header-top {
     padding: 0 2%;
   }
@@ -131,7 +130,7 @@ header {
 }
 
 @media screen and (max-width: 768px) {
-  /* header-xs */
+  /* menu-xs & jumbo-xs */
   body {
     font-size: 8px;
   }
@@ -166,4 +165,32 @@ header {
   .jumbo_text a img {
     width: 90%;
   }
+}
+
+/* body */
+/* models-lg */
+.models .container {
+  padding: 40px;
+}
+
+.models img {
+  height: 350px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* models-md */
+}
+
+@media screen and (max-width: 768px) {
+  /* models-xs */
+}
+
+/* how-lg */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* how-md */
+}
+
+@media screen and (max-width: 768px) {
+  /* how-xs */
 }
