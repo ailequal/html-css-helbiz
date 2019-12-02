@@ -254,13 +254,23 @@ header {
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
   /* models-md */
+  /* vuoto */
 }
 
 @media screen and (max-width: 768px) {
   /* models-xs */
+  .models [class*="col-"]:first-child {
+    padding-right: 0;
+    padding-bottom: 30px;
+  }
+
+  .models [class*="col-"]:last-child {
+    padding-left: 0;
+  }
 }
 
 /* how-lg */
+
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
   /* how-md */
