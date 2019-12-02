@@ -21,6 +21,10 @@ body {
   padding-top: 20px;
 }
 
+.text_align_center {
+  text-align: center;
+}
+
 .lg_display_none {
   display: none;
 }
@@ -296,8 +300,17 @@ header {
   font-size: 26px;
 }
 
-.how .container img {
-  height: 200px;
+.how .container .iphone {
+  position: relative;
+  height: 100px;
+}
+
+.how .container .iphone img {
+  position: absolute;
+  height: 400px;
+  top: -35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .how .container h5 {
