@@ -331,3 +331,99 @@ header {
 @media screen and (max-width: 768px) {
   /* how-xs */
 }
+
+/* smart-lg */
+.smart .container {
+  padding: 40px;
+}
+
+.smart .background {
+  height: 400px;
+  background-image: url(../img/ScooterHelbiz-2400.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.smart .smart_text {
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+
+.smart .smart_text > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+}
+
+.smart .smart_text h2 {
+  font-size: 40px;
+}
+
+.smart .smart_text h3 {
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.smart .smart_text a {
+  position: relative;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.smart .smart_text a::after {
+  position: absolute;
+  top: 0;
+  left: 80%;
+  width: 30px;
+  content: ">";
+  text-align: right;
+}
+
+.smart .smart_text a:active,
+.smart .smart_text a:focus,
+.smart .smart_text a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* smart-md */
+  .smart .smart_text > div {
+    width: 200px;
+  }
+
+  .smart .smart_text h2 {
+    font-size: 30px;
+  }
+
+  .smart .smart_text h3 {
+    font-size: 14px;
+  }
+
+  .smart .smart_text a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* smart-xs */
+  .smart .overlay {
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .smart .smart_text {
+    position: relative;
+  }
+
+  .smart .smart_text > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+  }
+}
