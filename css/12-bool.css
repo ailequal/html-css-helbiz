@@ -85,6 +85,9 @@
 .col-lg-12 {
   width: 100%;
 }
+.lg-display-none {
+    display: none;
+  }
 
 /* media query colonne */
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -123,6 +126,9 @@
   }
   .col-md-12 {
     width: 100%;
+  }
+  .md-display-none {
+    display: none;
   }
 }
 
